@@ -1,6 +1,6 @@
 import java.util.stream.IntStream;
 
-class NetWork {
+class NetWork__v2 {
     public int solution(int n, int[][] computers) {
         boolean[] visited = new boolean[n];
         return (int) IntStream.range(0, n)

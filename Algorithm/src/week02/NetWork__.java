@@ -1,6 +1,6 @@
 package week02;
 
-class NetWork {
+class NetWork__ {
     public int solution(int n, int[][] computers) {
         int answer = 0;
         boolean[] visited = new boolean[n];

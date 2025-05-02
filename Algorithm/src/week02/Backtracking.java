@@ -1,4 +1,4 @@
-public class NQueens {
+public class Backtracking {
     private static final int N = 4; // 체스판 크기
 
     // 체스판 출력 함수
