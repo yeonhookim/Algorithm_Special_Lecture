@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 public class BOJ9934 {
 
-    // 트리의 깊이(K)를 저장할 전역 변, 문제에서 주어지는 입력값
+    // 트리의 깊이(K)를 저장할 전역 변수, 문제에서 주어지는 입력값
     static int K;
 
     // 입력으로 주어지는 중위 순회의 결과를 저장할 배열
@@ -64,11 +64,10 @@ public class BOJ9934 {
             for (int n : level) {
                 sb.append(n).append(" ");
             }
+            // 한 레벨의 모든 노드 출력이 끝나면 줄바꿈 문자를 추가
+            sb.append('\n');
         }
-        // 한 레벨의 모든 노드 출력이 끝나면 줄바꿈 문자를 추가
-        sb.append('\n');
-
-        System.out.println(sb);
+        System.out.print(sb); // 출력 개행 수정
     }
 
     // 트리를 재구성하는 재귀 함수
