@@ -7,7 +7,6 @@ public class pg0523 {
 class Solution {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
-
         // 중복되는 신고 없애기
         Set<String> reportSet = new HashSet<>(Arrays.asList(report));
         // System.out.println(reportSet);
