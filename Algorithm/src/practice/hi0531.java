@@ -143,7 +143,7 @@ public class hi0531 {
 
     // 메인 메서드
     public static void main(String[] args) {
-        StudentManager manager = new StudentManager();
+        hi0531 manager = new hi0531();
         manager.run();
     }
 }
