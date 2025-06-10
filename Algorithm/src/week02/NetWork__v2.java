@@ -1,3 +1,5 @@
+package week02;
+
 import java.util.stream.IntStream;
 
 class NetWork__v2 {
