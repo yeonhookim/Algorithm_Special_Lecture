@@ -9,7 +9,6 @@ package practice;
 
 public class FibonacciCalculator {
 
-
     /**
      * 반복문을 이용해 n번째 피보나치 수를 반환합니다.
      * @param n 구하고자 하는 피보나치 수열의 인덱스(0부터 시작)
