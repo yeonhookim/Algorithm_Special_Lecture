@@ -4,9 +4,9 @@ package practice;
  * FibonacciCalculator 클래스는 피보나치 수열을 계산하는 다양한 메서드를 제공합니다.
  * - 반복문을 이용한 방식
  * - 재귀 호출을 이용한 방식
- *
  * 알고리즘 연습 및 주석 작성 예시로 활용할 수 있습니다.
  */
+
 public class FibonacciCalculator {
 
 
